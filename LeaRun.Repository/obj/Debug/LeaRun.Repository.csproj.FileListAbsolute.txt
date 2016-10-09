@@ -1,0 +1,67 @@
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Repository.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Repository.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Utilities.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\log4net.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\Oracle.DataAccess.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\MySql.Data.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\System.Data.SQLite.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\SharpZipLib.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\Newtonsoft.Json.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.DataAccess.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Utilities.pdb
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.csprojResolveAssemblyReference.cache
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.dll
+D:\工作项目\LeaRun.快速信息化系统开发框架V4.1\LeaRun.快速信息化系统开发框架V4.1\project\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.pdb
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Repository.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Repository.pdb
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.DataAccess.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Utilities.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\SharpZipLib.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.dll
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.pdb
+C:\Users\Administrator\Desktop\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.csprojResolveAssemblyReference.cache
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Repository.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Repository.pdb
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.DataAccess.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\LeaRun.Utilities.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\log4net.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\Oracle.DataAccess.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\MySql.Data.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\System.Data.SQLite.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\SharpZipLib.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\bin\Debug\Newtonsoft.Json.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.csprojResolveAssemblyReference.cache
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.dll
+F:\工作\源码\审核代码\12月份\12.4\2\后台模板\LeaRun.Framework V4.1\LeaRun.Repository\obj\Debug\LeaRun.Repository.pdb
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\LeaRun.Repository.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\LeaRun.Repository.pdb
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\LeaRun.DataAccess.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\LeaRun.Utilities.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\log4net.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\Oracle.DataAccess.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\MySql.Data.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\System.Data.SQLite.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\SharpZipLib.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\bin\Debug\Newtonsoft.Json.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\obj\Debug\LeaRun.Repository.csprojResolveAssemblyReference.cache
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\obj\Debug\LeaRun.Repository.dll
+D:\360极速浏览器下载\MVCBackStageManagement_b66421a4-0cc8-4e9b-bf3b-eed49a39025b\LeaRun.Repository\obj\Debug\LeaRun.Repository.pdb
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\LeaRun.Repository.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\LeaRun.Repository.pdb
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\LeaRun.DataAccess.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\LeaRun.Utilities.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\log4net.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\Oracle.DataAccess.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\MySql.Data.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\System.Data.SQLite.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\SharpZipLib.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\obj\Debug\LeaRun.Repository.csprojResolveAssemblyReference.cache
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\obj\Debug\LeaRun.Repository.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Repository\obj\Debug\LeaRun.Repository.pdb
