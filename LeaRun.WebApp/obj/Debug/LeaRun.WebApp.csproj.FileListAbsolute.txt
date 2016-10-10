@@ -323,3 +323,11 @@ E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\zh-Hans\System.Web.
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\obj\Debug\LeaRun.WebApp.csprojResolveAssemblyReference.cache
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\obj\Debug\LeaRun.WebApp.dll
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\obj\Debug\LeaRun.WebApp.pdb
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.BLL.dll
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.Common.dll
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.IBLL.dll
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.Models.dll
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.BLL.pdb
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.Common.pdb
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.IBLL.pdb
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.Models.pdb

@@ -8070,6 +8070,22 @@
       <Project>{1848efad-3f70-4e52-8bd8-e952dc127f4d}</Project>
       <Name>LeaRun.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Zxl.BLL\Zxl.BLL.csproj">
+      <Project>{b156645d-0717-45bc-bd6f-8370b8e4c329}</Project>
+      <Name>Zxl.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zxl.Common\Zxl.Common.csproj">
+      <Project>{2ba3f087-aa35-439a-b2f6-a0c30026173e}</Project>
+      <Name>Zxl.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zxl.IBLL\Zxl.IBLL.csproj">
+      <Project>{f9fc4999-379a-4117-afe3-4fa6ec93f1e2}</Project>
+      <Name>Zxl.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zxl.Models\Zxl.Models.csproj">
+      <Project>{9bbf7ccf-2bff-4348-a81a-9849324d3416}</Project>
+      <Name>Zxl.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
