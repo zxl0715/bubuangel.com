@@ -15,40 +15,40 @@ namespace Zxl.Models
         /// 用户名
         /// </summary>
         [Required(ErrorMessage = "必填项")]
-        [StringLength(20, MinimumLength = 4, ErrorMessage = "{0}到个{1}字符")]
+        [StringLength(20, MinimumLength = 4, ErrorMessage = "{2}到{1}个字符")]
         [Display(Name = "用户名")]
         public string UserName { get; set; }
 
-        /// <summary>
-        /// 用户组ID
-        /// </summary>
-        [Required(ErrorMessage="必填项")]
-        [Display(Name="分组ID")]
-        public int GroupID { get; set; }
+        ///// <summary>
+        ///// 用户组ID
+        ///// </summary>
+        //[Required(ErrorMessage="必填项")]
+        //[Display(Name="分组ID")]
+        //public int GroupID { get; set; }
 
 
         /// <summary>
         /// 显示名称
         /// </summary>
-        [Required(ErrorMessage="必填项")]
-        [StringLength(20,MinimumLength=4,ErrorMessage="{1}到{0}个字符")]
-        [Display(Name="显示名称")]
+        [Required(ErrorMessage = "必填")]
+        [StringLength(20, MinimumLength = 2, ErrorMessage = "{2}到{1}个字符")]
+        [Display(Name = "显示名")]
         public string DisplayName { get; set; }
 
 
         /// <summary>
         /// 密码
         /// </summary>
-        [Required(ErrorMessage="必填项")]
-        [Display(Name="密码")]
+        [Required(ErrorMessage = "必填项")]
+        [Display(Name = "密码")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
         /// <summary>
         /// 邮箱
         /// </summary>
-        [Required(ErrorMessage="必填项")]
-        [Display(Name="邮箱")]
+        [Required(ErrorMessage = "必填项")]
+        [Display(Name = "邮箱")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
@@ -74,6 +74,6 @@ namespace Zxl.Models
         public string LoginIP { get; set; }
 
 
-        public virtual UserGroup Group { get; set; }
+        //  public virtual UserGroup Group { get; set; }
     }
 }

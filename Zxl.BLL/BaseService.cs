@@ -16,7 +16,7 @@ namespace Zxl.BLL
             return CurrentRepostitory.Add(entity);
         }
 
-        public bool update(T entity)
+        public bool Update(T entity)
         {
             return CurrentRepostitory.Update(entity);
         }

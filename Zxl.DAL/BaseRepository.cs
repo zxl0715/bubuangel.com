@@ -62,12 +62,12 @@ namespace Zxl.DAL
             return _list;
         }
 
-        public IQueryable<T> FindPageList<S>(int pageIndex, int pageSize, out int totalRecord, Expression<Func<T, bool>> whereLambda, string orderName, bool isAsc)
+        public IQueryable<T> FindPageList(int pageIndex, int pageSize, out int totalRecord, Expression<Func<T, bool>> whereLambda, string orderName, bool isAsc)
         {
             var _list = nContext.Set<T>().Where<T>(whereLambda);
             totalRecord = _list.Count();    
              
-                _list = OrderBy(_list,orderName,isAsc).Skip<T>((pageIndex-1)*pageSize).Take<T>(pageSize;
+                _list = OrderBy(_list,orderName,isAsc).Skip<T>((pageIndex-1)*pageSize).Take<T>(pageSize);
             return _list;
         }
 

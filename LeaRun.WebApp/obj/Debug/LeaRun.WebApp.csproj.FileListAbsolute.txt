@@ -297,7 +297,6 @@ E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\SharpZipLib.dll
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\LeaRun.Business.pdb
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\LeaRun.Entity.pdb
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\LeaRun.Repository.pdb
-E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Microsoft.Web.Infrastructure.xml
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\System.Net.Http.xml
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\System.Net.Http.Formatting.xml
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\System.Net.Http.WebRequest.xml
@@ -331,3 +330,7 @@ E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.BLL.pdb
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.Common.pdb
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.IBLL.pdb
 E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.Models.pdb
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.IDAL.dll
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.DAL.dll
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.IDAL.pdb
+E:\zxl0715\MyProject\bubuangel.com\WebSite\LeaRun.WebApp\bin\Zxl.DAL.pdb

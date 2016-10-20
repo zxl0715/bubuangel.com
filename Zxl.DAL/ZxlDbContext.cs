@@ -12,12 +12,15 @@ namespace Zxl.DAL
     {
         public DbSet<User> Users { get; set; }
 
-        public DbSet<UserGroup> UserGroups { get; set; }
+        public DbSet<Role> UserGroups { get; set; }
 
+        public DbSet<UserRoleRelation> UserRoleRelation {get; set;}
         public DbSet<UserConfig> UserConifg { get; set; }
 
         public ZxlDbContext()
             : base("DefaultConnection")
-        { }
+        {
+            Database.CreateIfNotExists();
+        }
     }
 }

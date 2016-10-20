@@ -1,8 +1,11 @@
 ﻿using Zxl.Models;
 using System.Linq;
+using System.Security.Principal;
+ 
+ 
 namespace Zxl.IBLL
 {
-    public interface InterfaceUserService : InterfacBaseService<User>
+    public interface InterfaceUserService : InterfacBaseService<User> 
     {
         /// <summary>
         /// 用户是否存在
@@ -35,5 +38,6 @@ namespace Zxl.IBLL
         /// <returns></returns>
         IQueryable<User> FindPageList(int pageIndex, int pageSize, out int totalRecord, int order);
 
+         
     }
 }
