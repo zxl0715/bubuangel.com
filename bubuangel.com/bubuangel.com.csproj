@@ -191,6 +191,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Member\Controllers\HomeController.cs" />
     <Compile Include="Areas\Member\Controllers\UserController.cs" />
+    <Compile Include="Areas\Member\Extensions\UserAuthorizeAttribute.cs" />
     <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
     <Compile Include="Areas\Member\Models\LoginViewModel.cs" />
     <Compile Include="Areas\Member\Models\RegisterViewModel.cs" />

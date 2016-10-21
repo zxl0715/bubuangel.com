@@ -81,7 +81,7 @@ namespace bubuangel.com.Areas.Member.Controllers
                         Email = register.Email,
                         Status = 0,
                         RegisrationTime = DateTime.Now,
-                        LoginTime=DateTime.Now
+                        LoginTime = DateTime.Now
 
                     };
                     _user = userService.Add(_user);
@@ -97,8 +97,12 @@ namespace bubuangel.com.Areas.Member.Controllers
             }
             return View(register);
         }
-
-
+        //  /Member/User/Login/
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="returnUrl"></param>
+        /// <returns></returns>
         public ActionResult Login(string returnUrl)
         {
             return View();
@@ -120,6 +124,15 @@ namespace bubuangel.com.Areas.Member.Controllers
                     //var _identity = userService.CreateIdentity(_user, DefaultAuthenticationTypes.ApplicationCookie);
                     //AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
                     //AuthenticationManager.SignIn( _identity);
+
+                    HttpCookie _cookie = new HttpCookie("User");
+
+                    _cookie.Values.Add("UserName", loginViewModel.UserName);
+                    _cookie.Values.Add("Password", Security.Sha256(loginViewModel.Password));
+                    Response.Cookies.Add(_cookie);
+                    _user.LoginTime = DateTime.Now;
+                    _user.LoginIP = Request.UserHostAddress;
+                    userService.Update(_user);
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -136,8 +149,15 @@ namespace bubuangel.com.Areas.Member.Controllers
         /// </summary>
         /// <returns></returns>
         public ActionResult Logout()
-        { 
-        //AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+        {
+            if (Request.Cookies["User"] != null)
+            {
+                HttpCookie _cookie = Request.Cookies["User"];
+                _cookie.Expires = DateTime.Now.AddHours(-1);
+                Response.Cookies.Add(_cookie);
+            }
+
+            //AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
             return Redirect(Url.Content("~/"));
         }
     }
