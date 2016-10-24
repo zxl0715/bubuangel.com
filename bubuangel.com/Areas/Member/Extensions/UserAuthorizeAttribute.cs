@@ -25,7 +25,7 @@ namespace bubuangel.com.Areas.Member.Extensions
             HttpCookie _cookie = httpContext.Request.Cookies["User"];
             string _username = _cookie["UserName"];
             string _password = _cookie["Password"];
-            httpContext.Response.Write("用户名：" + _username);
+            //httpContext.Response.Write("用户名：" + _username);
             if (_username == "" || _password == "")
             {
                 return false;

@@ -20,5 +20,11 @@ namespace Zxl.DAL
             }
         }
 
+        public static InterfaceModuleRepository ModuleRepoitory
+        {
+            get {
+                return new ModuleRepository();
+            }
+        }
     }
 }

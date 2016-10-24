@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InterfaceBaseRepository.cs" />
+    <Compile Include="InterfaceModuleRepository.cs" />
     <Compile Include="InterfaceUserRerpository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
     <Compile Include="ContextFactory.cs" />
+    <Compile Include="ModuleRepository.cs" />
     <Compile Include="RepositoryFactory.cs" />
     <Compile Include="UserRepository.cs" />
     <Compile Include="ZxlDbContext.cs" />

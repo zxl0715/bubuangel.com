@@ -72,3 +72,17 @@ C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Entity\bin\Debu
 C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
 C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
 C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\WebSite\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\LeaRun.Entity.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\LeaRun.Entity.pdb
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\EntityFramework.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\LeaRun.DataAccess.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\LeaRun.Utilities.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\log4net.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\Oracle.DataAccess.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\MySql.Data.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\System.Data.SQLite.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\SharpZipLib.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\obj\Debug\LeaRun.Entity.csprojResolveAssemblyReference.cache
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\obj\Debug\LeaRun.Entity.dll
+C:\MyData\Work_ZH\MyProject\20160920bubuangel.com\bubuangel.com\LeaRun.Entity\obj\Debug\LeaRun.Entity.pdb

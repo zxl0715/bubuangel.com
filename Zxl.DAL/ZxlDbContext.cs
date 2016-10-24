@@ -17,6 +17,8 @@ namespace Zxl.DAL
         public DbSet<UserRoleRelation> UserRoleRelation {get; set;}
         public DbSet<UserConfig> UserConifg { get; set; }
 
+        public DbSet<Module> Module { get; set; }
+
         public ZxlDbContext()
             : base("DefaultConnection")
         {

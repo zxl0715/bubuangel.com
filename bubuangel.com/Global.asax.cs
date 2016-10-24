@@ -23,6 +23,15 @@ namespace bubuangel.com
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            if (HttpContext.Current.Application["OnLineCount"] == null)
+            {
+                HttpContext.Current.Application["OnLineCount"] = 1;
+            }
+            else
+            {
+                HttpContext.Current.Application["OnLineCount"] = (int)HttpContext.Current.Application["OnLineCount"] + 1;
+            }
         }
     }
 }
