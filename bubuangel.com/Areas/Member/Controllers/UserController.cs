@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using Zxl.BLL;
 using Zxl.Common;
 using Zxl.Models;
@@ -125,14 +126,16 @@ namespace bubuangel.com.Areas.Member.Controllers
                     //AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
                     //AuthenticationManager.SignIn( _identity);
 
-                    HttpCookie _cookie = new HttpCookie("User");
+                    //HttpCookie _cookie = new HttpCookie("User");
 
-                    _cookie.Values.Add("UserName", loginViewModel.UserName);
-                    _cookie.Values.Add("Password", Security.Sha256(loginViewModel.Password));
-                    Response.Cookies.Add(_cookie);
+                    //_cookie.Values.Add("UserName", loginViewModel.UserName);
+                    //_cookie.Values.Add("Password", Security.Sha256(loginViewModel.Password));
+                    //Response.Cookies.Add(_cookie);
                     _user.LoginTime = DateTime.Now;
                     _user.LoginIP = Request.UserHostAddress;
                     userService.Update(_user);
+
+                    FormsAuthentication.SetAuthCookie(_user.UserName, true);
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -150,15 +153,53 @@ namespace bubuangel.com.Areas.Member.Controllers
         /// <returns></returns>
         public ActionResult Logout()
         {
-            if (Request.Cookies["User"] != null)
-            {
-                HttpCookie _cookie = Request.Cookies["User"];
-                _cookie.Expires = DateTime.Now.AddHours(-1);
-                Response.Cookies.Add(_cookie);
-            }
-
+            //if (Request.Cookies["User"] != null)
+            //{
+            //    HttpCookie _cookie = Request.Cookies["User"];
+            //    _cookie.Expires = DateTime.Now.AddHours(-1);
+            //    Response.Cookies.Add(_cookie);
+            //}
+            FormsAuthentication.SignOut();
             //AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
             return Redirect(Url.Content("~/"));
+        }
+
+
+        public ActionResult ChangePasswordViewModel()
+        {
+            return View();
+        }
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <param name="passwordViewModel"></param>
+        /// <returns></returns>
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public ActionResult ChangePassword(ChangePasswordViewModel passwordViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var _user = userService.Find(User.Identity.Name);
+                if (_user.Password == Security.Sha256(passwordViewModel.Password))
+                {
+
+                    _user.Password = Security.Sha256(passwordViewModel.Password);
+                    if (userService.Update(_user))
+                    {
+                        ModelState.AddModelError("", "修改密码成功");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "修改密码失败");
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", "原密码错误");
+                }
+            }
+            return View(passwordViewModel);
         }
     }
 }

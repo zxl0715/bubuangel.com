@@ -193,6 +193,7 @@
     <Compile Include="Areas\Member\Controllers\UserController.cs" />
     <Compile Include="Areas\Member\Extensions\UserAuthorizeAttribute.cs" />
     <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
+    <Compile Include="Areas\Member\Models\ChangePasswordViewModel.cs" />
     <Compile Include="Areas\Member\Models\LoginViewModel.cs" />
     <Compile Include="Areas\Member\Models\RegisterViewModel.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -4291,6 +4292,7 @@
     <Content Include="Areas\Member\Views\User\Index.cshtml" />
     <Content Include="Areas\Member\Views\User\Login.cshtml" />
     <Content Include="Areas\Member\Views\Home\AccordionPage.cshtml" />
+    <Content Include="Areas\Member\Views\User\ChangePasswordViewModel.cshtml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />

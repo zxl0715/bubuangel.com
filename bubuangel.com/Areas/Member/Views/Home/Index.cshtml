@@ -1,6 +1,4 @@
-﻿ 
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -168,7 +166,7 @@
                     </a>
                 </li>
                 <li id="metnav_4" class="list" onclick="IndexOut();">
-                    <a id="nav_4">
+                    <a id="nav_4" href="@Url.Action("Logout","User")">
                         <span class="c4"></span>
                         安全退出
                     </a>
@@ -233,7 +231,13 @@
                     <img id="icon_message" title="即时消息" src="~/Content/Images/bottom_icon_message.png" />
                 </div>
                 <div class="bottom_icon" style="padding-top: 1px;">
-                    <img title="我的信息，账户：欢迎您!@User.Identity.Name" src="~/Content/Images/bottom_icon_userinfo.png" />
+                    <img title="@if (Request.IsAuthenticated)
+                                {
+                                    @Html.DisplayText("我的信息，账户：欢迎您!" + User.Identity.Name)  
+                                   
+                    }
+                                    
+                                    " src="~/Content/Images/bottom_icon_userinfo.png" />
                 </div>
             </div>
         </div>
